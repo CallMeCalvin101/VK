@@ -1,3 +1,7 @@
+* {
+    background-color: #BFD7EA;
+}
+
 .sidespace {
     float: left;
     width: 10%;
@@ -8,27 +12,147 @@
     padding: 0px 5%;
 }
 
-.item {
+.item1 {
     float: left;
     width: 30%;
     overflow-y: auto;
     overflow-x: auto;
+    border-style: outset;
+    background-color: #0B3954;
 }
 
-.item h2 {
+.item1 h2 {
     font-family: 'Rubik', sans-serif;
+    font-size: 36px;
     text-align: center;
+    background-color: #0B3954;
+    color: #fffffe;
 }
 
-.item iframe {
+.item1 iframe {
     border: none;
     padding: 20px;
     width: 90%;
     height: 500px;
     margin: 0 auto;
+    background-color: #0B3954;
+}
+
+.item2 {
+    float: left;
+    width: 30%;
+    overflow-y: auto;
+    overflow-x: auto;
+    border-style: outset;
+    background-color: #E0FF4F;
+}
+
+.item2 h2 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 36px;
+    text-align: center;
+    background-color: #E0FF4F;
+}
+
+.item2 iframe {
+    border: none;
+    padding: 20px;
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    background-color: #E0FF4F;
+}
+
+.item3 {
+    float: left;
+    width: 30%;
+    overflow-y: auto;
+    overflow-x: auto;
+    border-style: outset;
+    background-color: #FF6663;
+}
+
+.item3 h2 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 36px;
+    text-align: center;
+    background-color: #FF6663;
+}
+
+.item3 iframe {
+    border: none;
+    padding: 20px;
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    background-color: #FF6663;
 }
 
 iframe {
     display: block;
     border-style:none;
+}
+
+.sectionheader {
+    font-family: 'Rubik', sans-serif;
+    font-size: 52px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.header {
+    padding-top: 10px;
+    background-color: #BFD7EA;
+}
+
+.header h1 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 64px;
+    text-align: center;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #0B3954;
+    float: center;
+}
+  
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    background-color: #0B3954;
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#intro div {
+    float: left;
+    width: 50%;
+    margin: 0px 25%;
+}
+
+#intro h1 {
+    float: left;
+    width: 50%;
+    margin: 0px 25% 10px 25%;
+}
+
+#intro p {
+    float: left;
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
+    text-align: left;
+    text-decoration: none;
+    margin: 0px 5%;
+}
+
+img {
+    float: left;
+    width: 35%;
+    height: auto;
+    margin: 0px 5%;
 }
